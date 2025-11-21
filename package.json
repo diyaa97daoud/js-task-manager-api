@@ -1,0 +1,33 @@
+{
+  "name": "task-manager-api",
+  "version": "1.0.0",
+  "description": "A RESTful API service for managing tasks with file-based storage and CLI support",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "docs": "jsdoc -c jsdoc.json",
+    "cli": "node src/cli.js"
+  },
+  "keywords": [
+    "task-manager",
+    "rest-api",
+    "express",
+    "cli"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1",
+    "uuid": "^9.0.1",
+    "commander": "^11.1.0",
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "jsdoc": "^4.0.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

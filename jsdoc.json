@@ -1,0 +1,24 @@
+{
+  "source": {
+    "include": ["src"],
+    "includePattern": ".js$"
+  },
+  "opts": {
+    "destination": "./out",
+    "recurse": true,
+    "readme": "./README.md",
+    "template": "default"
+  },
+  "plugins": [],
+  "templates": {
+    "cleverLinks": true,
+    "monospaceLinks": false,
+    "default": {
+      "outputSourceFiles": true
+    }
+  },
+  "metadata": {
+    "title": "Task Manager API Documentation",
+    "description": "Complete API reference for Task Manager API"
+  }
+}
