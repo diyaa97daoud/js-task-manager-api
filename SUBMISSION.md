@@ -234,5 +234,3 @@ open out/index.html             # Mac/Linux
 - Source code links
 
 ---
-
-**Repository URL for Submission**: https://github.com/diyaa97daoud/js-task-manager-api
