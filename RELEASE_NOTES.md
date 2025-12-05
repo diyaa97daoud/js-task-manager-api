@@ -140,25 +140,6 @@ npm run cli list
 npm run cli complete <task-id>
 ```
 
-## 🔍 Repository Structure
-
-```
-task-manager-api/
-├── src/
-│   ├── TaskManager.js    # Core business logic
-│   ├── server.js         # Express API server
-│   └── cli.js           # CLI interface
-├── docs/
-│   ├── tutorials/
-│   │   └── tutorial.md  # Complete tutorial
-│   └── DOCUMENTATION.md # Doc generation guide
-├── data/                # Task storage directory
-├── package.json         # Dependencies and scripts
-├── jsdoc.json          # JSDoc configuration
-├── LICENSE             # MIT License
-└── README.md           # Project documentation
-```
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please read the contributing section in [README.md](https://github.com/diyaa97daoud/js-task-manager-api/blob/main/README.md).
@@ -166,13 +147,3 @@ Contributions are welcome! Please read the contributing section in [README.md](h
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/diyaa97daoud/js-task-manager-api/blob/main/LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Created for TFSD course requirements
-- Built with Node.js and Express.js
-- Documentation powered by JSDoc
-
----
-
-**Full Repository**: https://github.com/diyaa97daoud/js-task-manager-api

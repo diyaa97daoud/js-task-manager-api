@@ -7,24 +7,12 @@ A RESTful API service for managing tasks with file-based storage and CLI support
 
 ## Features
 
-- 📝 **CRUD Operations**: Create, read, update, and delete tasks
-- 🔌 **REST API**: Full-featured HTTP API with Express.js
-- 💻 **CLI Interface**: Command-line tool for task management
-- 💾 **File-based Storage**: Persistent JSON storage
-- 📚 **Comprehensive Documentation**: JSDoc comments and generated API docs
-- 🎨 **Colorful CLI**: Beautiful terminal output with chalk
-
-## Table of Contents
-
-- [Installation](#installation)
-- [Quick Start](#quick-start)
-- [API Documentation](#api-documentation)
-- [CLI Usage](#cli-usage)
-- [Project Structure](#project-structure)
-- [Dependencies](#dependencies)
-- [Development](#development)
-- [Contributing](#contributing)
-- [License](#license)
+- **CRUD Operations**: Create, read, update, and delete tasks
+- **REST API**: Full-featured HTTP API with Express.js
+- **CLI Interface**: Command-line tool for task management
+- **File-based Storage**: Persistent JSON storage
+- **Comprehensive Documentation**: JSDoc comments and generated API docs
+- **Colorful CLI**: Beautiful terminal output with chalk
 
 ## Installation
 
@@ -195,24 +183,6 @@ npm run cli delete <task-id>
 
 **Note**: For task IDs, you can use the first 8 characters displayed in the list.
 
-## Project Structure
-
-```
-task-manager-api/
-├── src/
-│   ├── server.js           # Express API server
-│   ├── cli.js              # Command-line interface
-│   └── TaskManager.js      # Core task management logic
-├── data/                   # Task data storage (JSON files)
-├── docs/
-│   └── tutorials/          # Tutorial documentation
-├── package.json            # Project dependencies and scripts
-├── .env.example            # Environment configuration template
-├── .gitignore             # Git ignore rules
-├── LICENSE                # MIT License
-└── README.md              # This file
-```
-
 ## Dependencies
 
 ### Production Dependencies
@@ -267,33 +237,6 @@ curl -X PUT http://localhost:3000/api/tasks/<task-id> \
 curl -X DELETE http://localhost:3000/api/tasks/<task-id>
 ```
 
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-### Coding Standards
-
-- Follow existing code style
-- Add JSDoc comments for all functions and classes
-- Test your changes thoroughly
-- Update documentation as needed
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Author
-
-Created as part of TFSD course requirements.
-
-## Acknowledgments
-
-- Built with Node.js and Express
-- Uses file-based storage for simplicity
-- Inspired by modern task management tools
